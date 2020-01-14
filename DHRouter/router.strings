@@ -1,0 +1,113 @@
+
+/*
+ * 定义home 跳转
+ */
+"DHDating://home/rootuser/:targetId"="DHRootUserProfileController";
+
+/*
+ * 定义新的详情页面 跳转
+ */
+"DHDating://home/newRootuser"="DHCommonDetailViewController";
+
+/*
+ * 选择照片
+ */
+"DHDating://MediaSelect/:set" ="TZImagePickerController";
+
+
+/*
+ * 筛选社团
+ */
+"DHDating://home/societySet" ="DHSocietySetController";
+
+/*
+ * 好友或者社团列表
+ */
+"DHDating://person/societyList" ="DHUserSocietyListController";
+
+/*
+ * 名片
+ */
+"DHDating://person/card" ="DHUserCardController";
+
+/*
+ * 群聊名片
+ */
+"DHDating://group/card" ="DHGroupCardController";
+
+/*
+ * 更多资料
+ */
+"DHDating://person/moreDetail" ="DHProfileDetailController";
+
+
+/*
+ * 更多设置
+ */
+"DHDating://person/moreSetting" ="DHMoreSettingsController";
+
+/*
+ * 隐私设置
+ */
+"DHDating://person/privacySetting" ="DHPrivacyViewController";
+
+/*
+ * 关于约伴
+ */
+"DHDating://app/about" ="DHAboutViewController";
+
+
+
+/*
+ * 意见反馈/举报
+ */
+"DHDating://person/card/:isFeedBack" ="DHFeedBackController";
+
+
+"DHDating://person/privacy/content" ="DHPrivacyContentController";
+
+
+
+/*
+ * 实名认证
+ */
+"DHDating://person/info/vertify" ="DHInfomationVertifyController";
+
+/*
+ * 日志发布 /编辑 根据编辑与否 传入数据模型到userinfo
+ */
+"DHDating://person/daily/public" ="DHDailyEditController";
+/*
+ * 日志详情
+ */
+"DHDating://person/daily/detail" ="DHUserDailyDetailController";
+
+//个人日志全部评论
+"DHDating://person/daily/allDaily" ="DHUserDailyListController";
+
+//个人收藏
+"DHDating://person/daily/collect/:isCollect" ="DHUserDailyController";
+/*
+ * 群组信息界面
+ */
+"DHDating://im/groupInfo/:sessionId" ="DHGroupChatInfoViewController";
+/*
+ * 一对一 聊天界面
+ */
+"DHDating://IM/conversation/:targetId" ="RCConversationViewController";
+/*
+ * 打开扫一扫
+ */
+"DHDating://person/qrcode/scan" ="DHScanQRCodeController";
+
+//活动详情
+"DHDating://person/activity/detail" ="DHActivityDetailController";
+
+
+/*
+ * 好友申请确认页
+ */
+"DHDating://IM/friendRequests/:userId" ="DHVertifyProfileController";
+
+
+
